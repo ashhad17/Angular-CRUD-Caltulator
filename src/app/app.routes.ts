@@ -9,9 +9,9 @@ import { CalculatorComponent } from './calculator/calculator.component';
 
   { path: '', component: UserListComponent },
   { path: 'calculator', component: CalculatorComponent },
-  
   { path: 'create', component: UserCreateComponent },
   { path: 'edit/:id', component: UserEditComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
@@ -21,3 +21,4 @@ import { CalculatorComponent } from './calculator/calculator.component';
 
 export class AppRoutingModule {}
 export { routes }; 
+

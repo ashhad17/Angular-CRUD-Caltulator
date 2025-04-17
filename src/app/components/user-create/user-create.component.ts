@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-user-create',
+  standalone: true,
   imports: [FormsModule,CommonModule],
   templateUrl: './user-create.component.html',
   styleUrls: ['./user-create.component.css']

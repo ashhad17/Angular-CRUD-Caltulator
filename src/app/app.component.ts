@@ -7,7 +7,7 @@ import { UserEditComponent } from "./components/user-edit/user-edit.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, CalculatorComponent, UserListComponent, UserCreateComponent, UserEditComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
